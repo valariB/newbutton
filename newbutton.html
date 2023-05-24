@@ -3,7 +3,7 @@
 <script>
 function myFunction() {
     var currentURL = window.location.href;
-    var playbookLink = currentURL.split('https://www.notion.so/brightwild/Help-Center-aa9627fd1a6449dbad30215b17e6607b?pvs=4').pop();
+    var playbookLink = currentURL.split('?redirect=https://www.notion.so/brightwild/Help-Center-aa9627fd1a6449dbad30215b17e6607b').pop();
     console.log(playbookLink);
     window.open(playbookLink, "_blank").focus();
   }
